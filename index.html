@@ -6,13 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <script> let click=0 </script>
+   
     
-    <button onclick="alert(  click)"> show oty</button> <br>
-    <button onclick="alert( click +1)"> add qty</button> <br>
-    <button onclick=" alert(click +2)"> +2</button> <br>
-    <button onclick="alert(click +3)"> +3</button> <br>
-    <button onclick="alert( click)">clear cart</button>
+    <button onclick=" alert('Your quantity is '+ something );"> show oty</button> <br>
+
+    <button onclick="something= something+1; alert( 'Your quantity is '+ something);"> add qty</button> <br>
+
+    <button onclick="something = something +2; alert('Your quantity is ' +something);"> +2</button> <br>
+
+    <button onclick=" something =something +3; alert('Your quantity is ' +something);"> +3</button> <br>
+    
+    <button onclick=" something= something ; alert( something)  ">clear cart </button>
+
+    
+
+
+    <script> let something = 0; </script>
        
 </body>
 </html>
